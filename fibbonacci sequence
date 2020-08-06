@@ -1,0 +1,10 @@
+no_of_loop = 5
+a=0
+b=1
+count = 0
+while count < no_of_loop:
+  print a
+  c = a+b
+  a=b
+  b=c
+count+=1
